@@ -1,0 +1,72 @@
+@font-face {
+    font-family: rubik;
+    src: url(./fonts/Rubik-Regular.ttf);
+}
+
+:host {
+
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+    font-size: 16px;
+    font-family: rubik;
+    background-color: var(--white);
+    color: var(--very_dark_desaturated_violet);
+
+    .attribution {
+
+        font-size: 11px;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0px; 
+        a { color: hsl(228, 45%, 44%); }
+    
+    }
+
+
+    //## Colors
+
+    //### Primary
+
+    //#### Text
+
+    //(sub-heading at the top of the app UI)
+    --pale_violet: hsl(276, 100%, 81%);
+    
+    //(chat on the left)
+    --moderate_violet: hsl(276, 55%, 52%);
+    
+    //(chat on the right)
+    --desaturated_dark_violet: hsl(271, 15%, 43%);
+    
+    //(placeholder text)
+    --grayish_blue: hsl(206, 6%, 79%);
+
+    // (main heading)
+    --very_dark_desaturated_violet: hsl(271, 36%, 24%);
+    
+    //(paragraph)
+    --dark_grayish_violet: hsl(270, 7%, 64%);
+
+
+    //#### Gradients
+
+    --light_magenta: hsl(293, 100%, 63%);
+    --light_violet: hsl(264, 100%, 61%);
+
+
+    //### Secondary
+
+    --white: hsl(0, 0%, 100%);
+
+    // (app background)
+    --light_grayish_violet: hsl(270, 20%, 96%);
+
+    // (submit button background)
+    --very_dark_desaturated_violet: hsl(271, 36%, 24%);
+    
+    // (radio button outline)
+    --very_light_magenta: hsl(289, 100%, 72%);
+
+}
