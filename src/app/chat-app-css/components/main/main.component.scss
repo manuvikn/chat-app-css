@@ -1,3 +1,5 @@
+@import '../../assets/styles/animations.scss';
+
 :host {
 
     position: absolute;
@@ -9,4 +11,56 @@
     justify-content: center;
     align-items: center;
 
+    .main-container {
+        
+        width: 60%;
+        max-width: 1100px;
+        transition: width 1s;
+        display: flex;
+        column-gap: 4em;
+        row-gap: 2em;
+        justify-content: center;
+        align-items: center;
+        animation: fadeInAnimation 2s ease;
+
+        .text-container {
+    
+            display: flex;
+            flex-direction: column;
+            row-gap: 2em;
+    
+            .title-text-container {
+                
+                margin: 0px;
+    
+            }
+    
+            .sentence-text-container {
+    
+                margin: 0px;
+                color: var(--dark_grayish_violet);
+    
+            }
+    
+        }
+
+    }
+
+}
+
+@media (max-width: 900px) {
+ 
+    .main-container {
+
+        width: 90% !important;
+        flex-wrap: wrap;
+
+        .text-container {
+
+            text-align: center;
+
+        }
+
+    }
+ 
 }
