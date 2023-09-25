@@ -4,6 +4,7 @@ import { ChatAppCssRoutingModule } from "./chat-app-css.routing.module";
 import { ChatAppCssComponent } from "./chat-app-css.component";
 import { MainBackgroundComponent } from "./components/main-background/main-background.component";
 import { MainComponent } from "./components/main/main.component";
+import { MobileComponent } from "./components/mobile/mobile.component";
 
 @NgModule({
     imports: [
@@ -13,7 +14,8 @@ import { MainComponent } from "./components/main/main.component";
     declarations: [
         ChatAppCssComponent,
         MainBackgroundComponent,
-        MainComponent
+        MainComponent,
+        MobileComponent
     ]
 })
 export class ChatAppCssModule { }
