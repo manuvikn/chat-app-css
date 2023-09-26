@@ -1,6 +1,6 @@
 @font-face {
     font-family: rubik;
-    src: url(./fonts/Rubik-Regular.ttf);
+    src: url(/assets/css/fonts/Rubik-Regular.ttf);
 }
 
 :host {
@@ -10,8 +10,16 @@
     position: relative;
     font-size: 16px;
     font-family: rubik;
-    background-color: var(--light_grayish_violet);
     color: var(--very_dark_desaturated_violet);
+
+    ::ng-deep {
+        
+        *, ::after, ::before {
+            box-sizing: content-box;
+            line-height: initial;
+        }
+
+    }
 
     .attribution {
 
@@ -68,5 +76,22 @@
     
     // (radio button outline)
     --very_light_magenta: hsl(289, 100%, 72%);
+
+}
+
+::ng-deep .chat-app-css app-navbar {
+
+    height: auto !important;
+    z-index: 1;
+
+    .custom-nav {
+
+        color: hsl(271, 36%, 24%);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+
+    }
 
 }

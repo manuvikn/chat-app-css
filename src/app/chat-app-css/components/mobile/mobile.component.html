@@ -5,7 +5,7 @@
         <div class="contact-info">
             <div class="contact-info-container">
                 <i class="bi bi-chevron-compact-left"></i>
-                <img src="/assets/img/avatar.jpg" alt="profile picture" class="avatar">
+                <img src="/assets/img/cac-avatar.jpg" alt="profile picture" class="avatar">
                 <div class="name-container">
                     <span class="name">Samuel Green</span>
                     <span class="availability">Available to Walk</span>
@@ -17,36 +17,65 @@
 
     <div class="mobile-body">
 
-        <div class="mobile-body-container">
+        <div #mobileScreen class="mobile-body-container">
 
-            <span class="message">
+            <span class="message message-animation-left noDisplay">
                 That sounds great. I'd be happy to discuss more.
             </span>
 
-            <span class="message">
+            <span class="message message-animation-left noDisplay">
                 Could you send over some pictures of your dog, please?
             </span>
 
-            <span class="message left-message">
+            <span class="foto-message message-animation-right noDisplay">
+                <img src="/assets/img/cac-dog-image-1.jpg" alt="dog picture">
+                <img src="/assets/img/cac-dog-image-2.jpg" alt="dog picture">
+                <img src="/assets/img/cac-dog-image-3.jpg" alt="dog picture">
+            </span>
+
+            <span class="message right-message message-animation-right noDisplay">
                 Here are a few pictures. She's a happy girl!
             </span>
           
-            <span class="message left-message">
+            <span class="message right-message message-animation-right noDisplay">
                 Can you make it?
             </span>
           
-            <span class="message">
+            <span class="message message-animation-left noDisplay">
                 She looks so happy! The time we discussed works. How long shall I take her out for?
             </span>
 
-            <span class="message">
-                30 minute walk
-                $29
+            <span class="message radio-message message-animation-left noDisplay">
+                <span class="radio-circle"></span>
+                <span class="radio-message-text">
+                    30 minute walk
+                </span>
+                <span class="radio-message-price">
+                    $29
+                </span>
             </span>
           
-            <span class="message">
-                1 hour walk
-                $49
+            <span class="message radio-message message-animation-left noDisplay">
+                <span class="radio-circle"></span>
+                <span class="radio-message-text">
+                    1 hour walk
+                </span>
+                <span class="radio-message-price">
+                    $49
+                </span>
+            </span>
+
+            
+        </div>
+
+        <div class="input-container">
+
+            <span class="input-placeholder">
+                Type a message...
+            </span>
+
+            <span class="send-message-button">
+                <i class="bi bi-chevron-right"></i>
             </span>
 
         </div>
