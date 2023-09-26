@@ -27,6 +27,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/chat-app-scss-built-with-angular-lnRG2XL8YH](https://www.frontendmentor.io/solutions/chat-app-scss-built-with-angular-lnRG2XL8YH)
 - Live Site URL: [https://manuvikn.github.io/calculator-app](https://manuvikn.github.io/chat-app-css)
 
 ## My process
